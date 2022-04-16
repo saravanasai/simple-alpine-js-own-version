@@ -1,5 +1,5 @@
 <html>
-  <div s-data="{count:0,name:'saravana dai'}">
+  <div s-data="{count:0,name:'hello chaged new from saction'}">
     <button type="button" $click="count++">increase</button>
     <div s-text="count"></div>
     <div s-text="name"></div>
