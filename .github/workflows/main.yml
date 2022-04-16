@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.joyhoney.in
-        username: saravanasai@joyhoney.in
-        password: sai@1412
+        server: ${{ secrets.FTP_SERVER}}
+        username: ${{ secrets.FTP_USER_NAME}}
+        password: ${{ secrets.FTP_PASSWORD}}
         server-dir: stageing/
