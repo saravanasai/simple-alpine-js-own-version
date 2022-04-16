@@ -17,4 +17,4 @@ jobs:
         server: ftp.joyhoney.in
         username: saravanasai@joyhoney.in
         password: sai@1412
-        server-dir: public_html/stageing/
+        server-dir: stageing/
